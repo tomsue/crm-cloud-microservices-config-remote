@@ -1,4 +1,4 @@
-author: Tom
+helloworld: HelloTom
 hcs:
     crm:
         mt-guard-url: http://127.0.0.1:38086
