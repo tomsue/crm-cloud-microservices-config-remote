@@ -1,4 +1,8 @@
-helloworld: HelloTom
+my:
+  name: tom
+  age: 20
+  gender: boy
+  id: 100
 hcs:
     crm:
         mt-guard-url: http://127.0.0.1:38086
@@ -20,9 +24,9 @@ spring:
             slave:
                 # 从数据源开关/默认关闭
                 enabled: false
-                url: 
-                username: 
-                password: 
+                url:
+                username:
+                password:
             # 初始连接数
             initialSize: 5
             # 最小连接池数量
@@ -42,7 +46,7 @@ spring:
             testWhileIdle: true
             testOnBorrow: false
             testOnReturn: false
-            webStatFilter: 
+            webStatFilter:
                 enabled: true
             statViewServlet:
                 enabled: true
