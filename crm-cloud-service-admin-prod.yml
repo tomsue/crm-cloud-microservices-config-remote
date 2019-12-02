@@ -1,3 +1,8 @@
+my:
+  name: tomProd1
+  age: 20
+  gender: boy
+  id: 100
 hcs:
     crm:
         mt-guard-url: http://127.0.0.1:38086/
